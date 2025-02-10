@@ -21,7 +21,7 @@ dependencies = [
     "python-dotenv",
     "azure-ai-generative[evaluate]==1.0.0b11",
     "azure-ai-evaluation==1.2.0",
-    "marshmallow==3.23.2", # Older version required due to promptflow issue with _T import
+    "marshmallow==3.26.1", # Older version required due to promptflow issue with _T import
     "azure-search-documents",
     "typer",
     "openai>=1.56.1", # Includes fix for httpx proxies issues
